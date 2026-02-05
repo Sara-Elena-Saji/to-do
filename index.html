@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modern To-Do List</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="main-wrapper">
+        <!-- LEFT SIDE: Affirmations & Cat -->
+        <div class="left-section">
+            <div class="affirmation-box">
+                <p id="affirmationText">You are doing amazing!</p>
+                <button id="affirmationBtn">New Vibe</button>
+            </div>
+            
+            <div class="cat-container">
+                <img src="cat-kitty.gif" alt="Cute hugging cat" class="gif-cat" >
+            </div>
+
+        </div>
+
+        <!-- RIGHT SIDE: Tasks -->
+        <div class="right-section">
+            <div class="container">
+                <h1>🌸 My Tasks</h1>
+                <p class="subtitle">Stay organized, stay productive</p>
+                
+                <div class="input-container">
+                    <input 
+                        type="text" 
+                        id="taskInput" 
+                        placeholder="What needs to be done?"
+                        autocomplete="off"
+                    >
+                    <button id="addBtn">Add</button>
+                </div>
+
+                <div class="filters">
+                    <button class="filter-btn active" data-filter="all">All</button>
+                    <button class="filter-btn" data-filter="active">Active</button>
+                    <button class="filter-btn" data-filter="completed">Completed</button>
+                </div>
+
+                <ul id="taskList"></ul>
+
+                <div class="task-count">
+                    <span id="taskCounter">0 tasks</span>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
