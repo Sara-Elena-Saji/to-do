@@ -27,7 +27,7 @@ Designed with a pixel-inspired aesthetic, positive affirmations, and an adorable
 
 ## 🚀 Live Demo
 
-👉 https://yourusername.github.io/cute-todo-app/
+👉  https://sara-elena-saji.github.io/to-do/
 
 ---
 
