@@ -6,6 +6,8 @@ Designed with a pixel-inspired aesthetic, positive affirmations, and an adorable
 ---
 
 ## 🌟 Features
+<img width="956" height="427" alt="image" src="https://github.com/user-attachments/assets/38a81692-f4ce-48c4-97d1-505f7cce0887" />
+
 
 - ✅ Add, complete, and delete tasks  
 - 🧠 Tasks persist using **localStorage**  
